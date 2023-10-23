@@ -8,7 +8,10 @@
 #wmn{
   background-repeat: no-repeat;
 }
-
+#price{
+  text-align: center;
+  color: white;
+}
 /* Colors */
 :root {
   --color-default: #212529;
@@ -29,6 +32,7 @@
 }
 
 .pricing .box h3 {
+  color: white;
   font-weight: 400;
   padding: 15px;
   font-size: 18px;
@@ -38,6 +42,7 @@
 
 .pricing .box h4 {
   font-size: 42px;
+  color: white;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -64,6 +69,7 @@
 
 .pricing .box ul li {
   padding-bottom: 16px;
+  color: white;
 }
 
 .pricing .box ul i {
@@ -73,7 +79,7 @@
 }
 
 .pricing .box ul .na {
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
   text-decoration: line-through;
 }
 
@@ -101,7 +107,7 @@
 }
 
 .pricing .featured {
-  background: #e03a3c;
+  background: #000000;
 }
 
 /* Smooth scroll behavior */
@@ -1458,7 +1464,7 @@ section {
   font-size: 24px;
   line-height: 0;
   color: #fff;
-  background: var(--color-primary);
+  background: black;
   border-radius: 50%;
   margin-right: 15px;
 }
