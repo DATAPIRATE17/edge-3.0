@@ -816,8 +816,8 @@ section {
 --------------------------------------------------------------*/
 .why-us .why-box {
   padding: 30px;
-  background: var(--color-primary);
-  color: #fff;
+  background:#ff8b00;
+  color: #000000;
 }
 
 .why-us .why-box h3 {
@@ -857,9 +857,11 @@ section {
   border: 1px solid rgba(55, 55, 63, 0.1);
   transition: 0.3s;
 }
-
+#psarx{
+  color: white;
+}
 .why-us .icon-box i {
-  color: var(--color-primary);
+  color: #ff7800;
   margin-bottom: 30px;
   font-size: 32px;
   margin-bottom: 30px;
@@ -1054,7 +1056,7 @@ section {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: var(--color-default);
+  color: #ffffff;
   font-family: var(--font-secondary);
 }
 
@@ -1277,6 +1279,20 @@ section {
   right: 8px;
   opacity: 1;
 }
+
+/* Add this CSS to centralize the last photo */
+/* .chefs .chef-member:last-child {
+  margin: 0 auto;
+} */
+
+/* Add this CSS to centralize the last photo */
+#sarx{
+  display: flex;
+  justify-content: center;
+  margin: 30px auto; /* Adjust this value to control the space */
+
+}
+
 
 /*--------------------------------------------------------------
 # Book A Table Section
