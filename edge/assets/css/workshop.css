@@ -677,8 +677,8 @@
   /*--------------------------------------------------------------
   # About Section AR WORKSHOP
   --------------------------------------------------------------*/
-  .about .about-img {
-    min-height: 500px;
+  .about1 .about-img {
+    min-height: 300px;
   }
   
   .about h3 {
@@ -838,11 +838,14 @@
     text-align: center;
   }
   
-  .about .call-us h4 {
+  .about2 .call-us h4 {
     font-size: 24px;
     font-weight: 700;
+    margin-left: 406px;
+    margin-top: 428px;
     margin-bottom: 5px;
-    font-family: var(--font-default);
+    padding: 10px;
+    font-family: 'Bebas Neue', sans-serif;
   }
   
   .about .call-us p {
@@ -975,11 +978,14 @@
     text-align: center;
   }
   
-  .about .call-us h4 {
+  .about3 .call-us h4 {
     font-size: 24px;
     font-weight: 700;
+    margin-left: 406px;
+    margin-top: 428px;
     margin-bottom: 5px;
-    font-family: var(--font-default);
+    padding: 10px;
+    font-family: 'Bebas Neue', sans-serif;
   }
   
   .about .call-us p {
@@ -1112,11 +1118,14 @@
     text-align: center;
   }
   
-  .about .call-us h4 {
+  .about4 .call-us h4 {
     font-size: 24px;
     font-weight: 700;
+    margin-left: 406px;
+    margin-top: 428px;
     margin-bottom: 5px;
-    font-family: var(--font-default);
+    padding: 10px;
+    font-family: 'Bebas Neue', sans-serif;
   }
   
   .about .call-us p {
