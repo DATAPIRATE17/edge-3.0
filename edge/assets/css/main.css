@@ -144,14 +144,18 @@ h6 {
 #acm{
   font-family: 'Bebas Neue', sans-serif;
   color: #6ce8fa;
+  position: relative;
 }
 
 #ac{
   font-family: 'Bebas Neue', sans-serif;
 font-family: 'Righteous', sans-serif;
 color: white;
+position: relative;
 }
-
+#acmm{
+  position: relative;
+}
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -164,7 +168,8 @@ section {
 
 .section-bg {
   /* background: linear-gradient(90deg, rgba(228,148,26,1) 0%, rgba(0,0,0,1) 100%); */
-  background: black}
+  background: black;
+}
 
 .section-header {
   text-align: center;
@@ -348,11 +353,11 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
-  background: black;
+  background: rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid rgba(12, 11, 9, 0.6);
 }
 
 @media (max-width: 575px) {
@@ -1617,7 +1622,16 @@ section {
   min-height: 100vh;
   padding: 160px 0 60px 0;
 }
-
+.hero video{
+    min-width: 100vw;
+    min-height: 100vh;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .hero h2 {
   font-size: 64px;
   font-weight: 700;
@@ -1688,6 +1702,15 @@ section {
     font-size: 14px;
   }
 }
+@media (max-width: 768px) {
+  .hero video{
+    position: inherit;
+    top: 100%;
+    left: 100%;
+  }
+}
+
+
 
 /*--------------------------------------------------------------
 # Footer
