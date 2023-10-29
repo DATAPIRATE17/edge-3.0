@@ -107,7 +107,7 @@
 }
 
 .pricing .featured {
-  background: white;
+  background: linear-gradient(#f3986b,#f6b534d7);
 }
 
 /* Smooth scroll behavior */
