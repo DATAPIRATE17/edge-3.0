@@ -1702,14 +1702,13 @@ section {
     font-size: 14px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 78px) {
   .hero video{
     position: inherit;
     top: 100%;
     left: 100%;
   }
 }
-
 
 
 /*--------------------------------------------------------------
